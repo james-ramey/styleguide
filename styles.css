@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite; 
+    color: darkslategrey;
+}
+.heading {
+    font: Helvetica;
+    font-weight: 700;
+}
+.container {
+    display: block;
+}
