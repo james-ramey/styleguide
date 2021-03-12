@@ -44,15 +44,12 @@ h2 {
 
 .heading {
     text-align: center;
-    text-shadow: #943B29 -2px 1px;
-    color: #E06E56
 }
 
 .container {
-    border: 2px solid #943B29;
+    border: 2px solid #2f2f2f;
     padding: 10px;
     margin: 10px auto;
-    box-shadow: #315094 -2px 1px;
 }
 
 .peach {
