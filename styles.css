@@ -1,12 +1,109 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite; 
-    color: darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+    background-color: whitesmoke; 
+    color: #000;
+    align-content: center;
+
 }
+
+p {
+    display: block;
+    font-family: 'Roboto', sans-serif;;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+}
+
+
+
+h1 {
+    display: block;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h2 {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .heading {
-    font: Helvetica;
+    margin-top: 10px;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.peach {
+    background-color: #E06E56;
+    color: #FFF;
+}
+
+.brick-red {
+    background-color: #943B29;
+    color: #fff;
+}
+
+.navy-blue {
+    background-color: #315094;
+    color: #fff;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.crimson {
+    font-family: 'Crimson Text', serif;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
     font-weight: 700;
 }
-.container {
-    display: block;
+
+.italic {
+    font-style: italic;
 }
