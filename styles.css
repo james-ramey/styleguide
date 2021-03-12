@@ -4,7 +4,12 @@ body {
     background-color: whitesmoke; 
     color: #000;
     align-content: center;
+}
 
+header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px;
 }
 
 p {
@@ -38,13 +43,16 @@ h2 {
 }
 
 .heading {
-    margin-top: 10px;
+    text-align: center;
+    text-shadow: #943B29 -2px 1px;
+    color: #E06E56
 }
 
 .container {
-    border: 2px solid #a2a2a6;
+    border: 2px solid #943B29;
     padding: 10px;
     margin: 10px auto;
+    box-shadow: #315094 -2px 1px;
 }
 
 .peach {
